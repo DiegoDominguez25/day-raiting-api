@@ -1,0 +1,2 @@
+### Recuperar días por mes y año
+GET http://localhost:3000/api/days/2025/1
