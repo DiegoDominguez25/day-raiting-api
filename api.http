@@ -1,2 +1,12 @@
 ### Recuperar días por mes y año
-GET http://localhost:3000/api/days/2025/1
+GET http://localhost:3000/days/2025/1
+
+### Insertar un nuevo día
+POST http://localhost:3000/days
+Content-Type: application/json
+
+{
+    "date": "2025-01-13",
+    "rating": 5,
+    "comment": "Día chido"
+}
